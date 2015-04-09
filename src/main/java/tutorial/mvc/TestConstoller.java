@@ -2,14 +2,14 @@ package tutorial.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 
-/**
- * Created by agilardi on 3/20/15.
- */
+@Controller
+@RequestMapping("/")
 public class TestConstoller {
 
-    @RequestMapping("/test")
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String test() {
         return "view";
     }
