@@ -24,10 +24,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="basic-web-app" />
+        <module name="scm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-web-app" target="1.6" />
+      <module name="scm" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

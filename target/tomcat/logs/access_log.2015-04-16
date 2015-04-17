@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:36:47 -0400] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:36:47 -0400] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:36:51 -0400] "GET /test HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:37:07 -0400] "GET /basic-web-app HTTP/1.1" 302 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:37:08 -0400] "GET /basic-web-app/ HTTP/1.1" 404 949 http-bio-8080-exec-7 543
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:37:13 -0400] "GET /basic-web-app/test HTTP/1.1" 200 51 http-bio-8080-exec-8 36
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:57:19 -0400] "GET /basic-web-app/test HTTP/1.1" 404 949 http-bio-8080-exec-1 671
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:57:22 -0400] "GET /basic-web-app/ HTTP/1.1" 200 51 http-bio-8080-exec-3 39
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:10:58:51 -0400] "GET /basic-web-app/ HTTP/1.1" 200 51 http-bio-8080-exec-1 644
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:11:00:37 -0400] "GET /basic-web-app/ HTTP/1.1" 200 51 http-bio-8080-exec-1 600
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:11:00:43 -0400] "GET /basic-web-app/home HTTP/1.1" 404 949 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:11:04:00 -0400] "GET /basic-web-app/home HTTP/1.1" 404 949 http-bio-8080-exec-1 556
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:11:04:22 -0400] "GET /basic-web-app/ HTTP/1.1" 200 51 http-bio-8080-exec-3 509
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:11:34:53 -0400] "GET /basic-web-app/ HTTP/1.1" 500 3934 http-bio-8080-exec-6 18
+0:0:0:0:0:0:0:1 - - [16/Apr/2015:11:55:19 -0400] "GET /basic-web-app/ HTTP/1.1" 200 211 http-bio-8080-exec-8 39
